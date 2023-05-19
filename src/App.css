@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap");
+:root {
+  --black: #000;
+  --white: #ffffff;
+  --crimson-red: #dc143c;
+  --navy-blue: #002849;
+  --sky-blue: #c2e6fd;
+  --light-sky-blue: #87cefa;
+  --dark-slate-blue: #483d8b;
+  --purple: #6d63ac;
+  --cyan: #0dcaf0;
+}
