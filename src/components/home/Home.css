@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+main {
+    display: flex;
+    /* margin: 10px; */
+    height: 100vh;
+    background-color: #e4f4ff;
+}
+
+/* Side-Bar */
+.sidebar {
+    background-color: #002849;
+    /* border: 2px solid red; */
+    padding: 1.1em;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2em;
+}
+.search > form {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
+.search-input > input {
+    /* background-color: aqua; */
+    margin: 5px;
+    padding: 13.8px 10px;
+    border: 1px solid rgb(88, 88, 88);
+    outline: none;
+    border-radius: 15px 0 0 15px;
+    font-size: medium;
+}
+
+.search-input > label {
+    /* background-color: red; */
+    font-weight: 900;
+    color: white;
+    font-size:large;
+}
+
+.search-btn {
+    border: 1px solid rgb(88, 88, 88);
+    background-color: white;
+    padding: 12.5px 10px;
+    margin-left: -14px;
+    border-radius: 0 15px 15px 0;
+    cursor: pointer;
+}
+
+.search-btn:hover{
+    color: white;
+    background-color:  rgb(50, 61, 114);
+    transition: all 0.3s ease-in-out;
+}
+
+.sort-by > label{
+    font-weight: 900;
+    color: white;
+    font-size:large;
+}
+
+.sort-item > input{
+    margin: 8px 10px;
+}
+
+.sort-item > label{
+    color: white;
+    font-size: medium;
+    font-weight: 550;
+}
+
+/* Main Content */
+.content {
+    border: 2px solid blueviolet;
+    width: 80%;
+    padding: 25px;
+
+}
+
+.content > b{
+    /* border: 1px solid black; */
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: larger;
+    /* letter-spacing: 1px; */
+}
+
+.card{
+    border: 0.1px solid rgba(0,0,0,.116);
+    background-color: #c2e7ffcc;
+
+    margin: 15px;
+    padding: 20px 30px;
+    border-radius: 10px;
+    width: 90%;
+    box-shadow: 1px 1px 5px rgba(0,17,255,.11);
+    transition: all 0.3s ease-in-out;
+}
+.card:hover{
+    background: #a3dbfd;
+}
+
+.card > h1{
+    color: crimson;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    font-size: 1.6em;
+}
+.bed-counts{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.bed-counts > span{
+    font-size: large;
+}
